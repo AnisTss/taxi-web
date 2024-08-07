@@ -1,0 +1,74 @@
+:host {
+  display: flex;
+  height: 100%;
+  flex-flow: column;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+nz-header {
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    margin-right: 16px;
+  }
+}
+
+nz-content {
+  overflow-y: auto;
+  background-image: url(https://fastly.picsum.photos/id/178/2592/1936.jpg?hmac=lW1JtHlmevwr41pQSILng2JYKGlX7fLMmptsz45JKZ0);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-attachment: fixed;
+
+  height: 300vh;
+}
+
+nz-breadcrumb {
+  margin: 16px 0;
+}
+
+.inner-content {
+  background: #000000;
+  min-height: 480px;
+  margin-top: 192px;
+  margin-bottom: 640px;
+  opacity: 60%;
+  display: flex;
+  flex-flow: column nowrap;
+  // justify-content: space-evenly;
+  align-items: flex-start;
+  h1,
+  h3 {
+    color: white;
+    width: 50%;
+    margin-left: 128px;
+    margin-top: 64px;
+  }
+}
+
+nz-footer {
+  text-align: center;
+}
